@@ -1,0 +1,43 @@
+# Secrets & Environment Variables (Never Commit Credentials)
+.env
+.env.*
+!.env.example
+*token*
+*secret*
+*.pem
+*.key
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Local Training & Model Export Artifacts
+workspace_artifacts/
+training_checkpoints/
+peft_rslora_spam_adapter/
+merged_*/
+gguf_*/
+llama.cpp/
+llama_cpp_*/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.parquet
+
+# OS & Editor Metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
